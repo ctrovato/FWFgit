@@ -1,0 +1,19 @@
+
+<h1>HOME</h1>
+<div class="userlist">
+<div class="panel" ng-repeat="data in dataArray track by $index">
+
+
+		    <div class="media">
+						  <a class="pull-left" href="#details/{{$index}}">
+						    <img class="media-object" src="{{data.gravatar}}" alt="">
+						  </a>
+						  <div class="media-body">
+						    <a href="#details/{{$index}}"><h4 class="media-heading">{{data.name}}</h4></a>
+						    <h6><strong>Email: </strong>{{data.email}}</h6>
+						    <h6><strong>Phone: </strong>{{data.phone}}</h6>
+		 							<h6><strong>Student ID#: </strong> {{data.student_id}}</h6>
+						  </div>
+						</div>
+
+</div>

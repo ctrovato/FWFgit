@@ -1,0 +1,25 @@
+
+body{
+	background-color: #088DA1;
+}
+
+
+h1{
+   text-indent: -9999px;
+   background: url(../images/studentLogo2.png);
+   background-repeat: no-repeat;
+   padding-bottom: 120px;
+   margin-left: 75px;
+   text-align: center;
+}
+
+
+.panel:nth-child(even){
+	/*background-color:#D8D8D8;*/
+   background-color:#B2FFB2;
+}
+
+.container{
+	margin:  0 auto;
+	width: 550px;
+}

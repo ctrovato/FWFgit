@@ -1,0 +1,136 @@
+body{
+    background-color:  #3196FF;
+    width:75%;
+    margin: auto 0;
+    font-family: helvetica;
+    padding-top: 0px;
+    padding-left: 75px;
+}
+
+
+.text-center{
+  color: #000000;
+
+}
+
+nav{
+  color: black;
+  font-size: 1em;
+  display: inline;
+}
+nav>ul{
+    margin: 0;
+    padding: 0px 2% ;/* 10px/1000px */ /* 20px/1000px */
+    text-align: center;
+    width: 100%; /* 640px/1000px */
+    line-height: 97px;
+    height: 5px;
+}
+
+
+
+
+nav ul>li{
+  padding-left:0;
+}
+
+nav ul li{
+  list-style: none;
+  text-align: center;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  padding: 0 1.041666666%; /*10px/960px*/
+
+}
+
+nav ul li a{
+  text-decoration: none;
+  list-style: none;
+  color:#ffffff;
+  float: right;
+  font-size: 2em;
+  padding-left: 15px;
+
+
+}
+
+nav ul li a:hover{
+  color: black;
+}
+
+.item{
+    width:170px;
+    height:35px;
+    background-color:#FFE8C0;
+    margin:3px;
+    position:relative;
+}
+
+#inputField{
+    color: #5772C4;
+}
+
+
+::selection {
+  background: #5772C4;
+  color: black;
+}
+
+h3{
+    text-indent: -9999px;
+    background: url(../images/employeeLogo.png);
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+h2{
+    text-indent: -9999px;
+    background: url(../images/employeeListingLogo.png);
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+
+.listItem{
+    padding-top: 7px;
+    text-align: center;
+    text-transform: capitalize;
+    color:#5772C4;
+}
+
+.buttonStyle{
+    background-color:#3196FF;
+    color: #ffffff;
+    border-style: none;
+}
+
+.panel {
+  margin-bottom: 20px;
+  background-color: #C2E6FF;
+  width: 100%;
+  margin: 0 auto;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+
+.container{
+    width:960px;
+}
+
+.panel-body2{
+  text-align: center;
+}
+
+
+button.delete{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #C4EEFF;
+    border-style: none;
+}
