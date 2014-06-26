@@ -1,0 +1,14 @@
+<p>This is home</p>
+
+<div class="userlist">
+
+    <input type="text" ng-model="userInput">
+    <button ng-click="addbutton()">Search</button>
+<div class="content" ng-repeat="content in dataArray track by $index">
+
+    <h4>{{content}}</h4>
+    <img src= "{{content.url_s}}" />
+    </div>
+
+
+</div>

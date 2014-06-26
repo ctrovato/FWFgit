@@ -1,0 +1,10 @@
+<h1>HOME</h1>
+<div class="container">
+<div ng-repeat="data in dataArray track by $index">
+<h4>{{data.name}}</h4>
+<a href="#details/{{$index}}">
+<img src="{{data.image}}" alt="pony">
+</a>
+
+
+</div>
